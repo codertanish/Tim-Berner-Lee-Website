@@ -95,37 +95,89 @@ p {
 
 .links {
 
-    float: left;
     color: black;
-    padding-top: 5px;
-    padding-left: 9px;
-    padding-right: 9px;
-    padding-bottom: 5px;
+    padding-left: 33px;
+    padding-right: 25px;
     font-family: Comic Sans MS;
-    font-size: 20px;
+    font-size: 25px;
+    display: inline;
 
 }
 
 
 
-.links:hover{
-  background-color: gold;  
-    
-    
-    
+.links:hover {
+    text-decoration: underline;
+    font-size: 30px;
+
+
+
 }
 
-.menu{
- list-style: none;
+.menu {
     position: fixed;
-    top: 20px;
-    right: 30px;
-    z-index: 10;    
+    top: 0px;
+    z-index: 10;
     cursor: pointer;
-    
-    
-    
-    
-    
-    
+    background: white;
+    width: 100%;
+    margin-top: 0px;
+    list-style: none;
+
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    text-shadow: 2px 2px gainsboro;
+
+}
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+#writing a {
+    font-size: 25px;
+    text-shadow: none !important;
+    color: blue !important;
+    text-decoration: underline !important;
+    font-family: Comic Sans MS !important;
+
+
+}
+
+#contact {
+    background: brown;
+
+
+
+}
+
+
+#contact iframe {
+    width: 100%;
+
+
+
+
+
+}
+
+.contact_1 h3 {
+
+    display: inline;
+
+
+
+}
+
+.contact_1 a {
+    color: white;
+    text-shadow: none;
+
+
+
 }
